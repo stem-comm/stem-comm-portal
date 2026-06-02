@@ -1,8 +1,8 @@
-# 🎓 UNCC CGLL STEM Communication Training Portal
+# 🎓 STEM Communication Training Portal
 
-Welcome to the documentation for the STEM Communication Training Portal! This website was developed for the Center for Graduate Life and Learning (CGLL) at the University of North Carolina at Charlotte to support the NSF-funded STEM communication training program.
+Welcome to the documentation for the STEM Communication Training Portal! This website was developed to distribute the NSF-funded STEM communication training program.
 
-**Live Website:** [https://uncc-cgll-stem-comm.github.io/stem-comm-portal/](https://uncc-cgll-stem-comm.github.io/stem-comm-portal/)
+**Live Website:** [https://stem-comm.github.io/stem-comm-portal/](https://stem-comm.github.io/stem-comm-portal/)
 
 ---
 
@@ -75,7 +75,7 @@ The "Course Library" tab features an interactive document viewer. When a user cl
 
 ## Developer Notes (For Future Admins)
 
-* **Hosting:** The site is hosted on GitHub Pages via the independent `uncc-cgll-stem-comm` organization. 
+* **Hosting:** The site is hosted on GitHub Pages via the independent `stem-comm` organization. 
 * **Styles:** All CSS is located in `style.css`. We avoid inline CSS where possible, utilizing classes like `.custom-table` for UI consistency.
 * **JavaScript:** The logic for fetching the CSV data from Google Sheets, building the DOM elements, handling tab switching, and managing the document viewer is contained in `app.js`.
-* **Repository Ownership:** The repository is owned by the UNCC CGLL GitHub Organization to ensure continuity when students graduate. Ensure at least one permanent UNCC staff member has "Owner" rights to this GitHub Organization.
+* **Repository Ownership:** The repository is owned by the stem-comm GitHub Organization to ensure continuity when students graduate. Ensure at least one permanent UNCC staff member has "Owner" rights to this GitHub Organization.
